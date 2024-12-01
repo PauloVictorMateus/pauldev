@@ -5,14 +5,14 @@ import { SiChakraui, SiNestjs, SiPrisma, SiTypescript } from "react-icons/si";
 
 const Skills: React.FC = () => {
   const skills = [
-    { name: "React", level: 90, icon: <FaReact size={"30px"} className="dark:text-gray-100" /> },
-    { name: "Chakra Ui", level: 90, icon: <SiChakraui size={"30px"} className="dark:text-gray-100"/>  },
-    { name: "TypeScript", level: 85, icon: <SiTypescript size={"30px"} className="dark:text-gray-100"/>  },
-    { name: "Node.js", level: 80,  icon: <FaNodeJs size={"30px"} className="dark:text-gray-100"/>  },
-    { name: "Tailwind CSS", level: 85,  icon: <RiTailwindCssFill size={"30px"} className="dark:text-gray-100"/> },
-    { name: "Aws", level: 85,  icon: <FaAws size={"30px"} className="dark:text-gray-100"/>  },
-    { name: "Prisma", level: 85,  icon: <SiPrisma size={"30px"} className="dark:text-gray-100"/>  },
-    { name: "NestJs", level: 85,  icon: <SiNestjs size={"30px"} className="dark:text-gray-100"/>   },
+    { name: "React", level: 100, icon: <FaReact size={"30px"} className="dark:text-gray-100" /> },
+    { name: "Chakra Ui", level: 100, icon: <SiChakraui size={"30px"} className="dark:text-gray-100"/>  },
+    { name: "TypeScript", level: 100, icon: <SiTypescript size={"30px"} className="dark:text-gray-100"/>  },
+    { name: "Node.js", level: 100,  icon: <FaNodeJs size={"30px"} className="dark:text-gray-100"/>  },
+    { name: "Tailwind CSS", level: 100,  icon: <RiTailwindCssFill size={"30px"} className="dark:text-gray-100"/> },
+    { name: "Aws", level: 100,  icon: <FaAws size={"30px"} className="dark:text-gray-100"/>  },
+    { name: "Prisma", level: 100,  icon: <SiPrisma size={"30px"} className="dark:text-gray-100"/>  },
+    { name: "NestJs", level: 100,  icon: <SiNestjs size={"30px"} className="dark:text-gray-100"/>   },
       ];
 
   return (
@@ -25,7 +25,6 @@ const Skills: React.FC = () => {
               {skill.icon}
               <div className="flex justify-between mb-2">
                 <span className="text-gray-900 dark:text-white font-medium">{skill.name}</span>
-                <span className="text-gray-600 dark:text-gray-300">{skill.level}%</span>
               </div>
               <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
                 <div
