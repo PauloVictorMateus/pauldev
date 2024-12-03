@@ -1,9 +1,8 @@
 import React from "react";
 import Avatar from "../assets/paulo-nascimento.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import PortugueseCurriculum from "../documents/portuguese-paulo-nascimento.pdf"
-import EnglishCurriculum from "../documents/english-paulo-nascimento.pdf"
-
+import PortugueseCurriculum from "../documents/paulo-nascimento-portuguese.pdf";
+import EnglishCurriculum from "../documents/paulo-nascimento-english.pdf";
 
 const timelineData = [
   {
